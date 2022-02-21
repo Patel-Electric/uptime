@@ -1,9 +1,23 @@
 var ping = require('ping');
 
-var hosts = ['192.168.1.1', 'google.com', 'yahoo.com'];
-hosts.forEach(function(host){
-    ping.sys.probe(host, function(isAlive){
-        var msg = isAlive ? 'host ' + host + ' is alive' : 'host ' + host + ' is dead';
-        console.log(msg);
-    });
-});
+
+async function myvalue (hosts){
+    return new Promise( (resolve,reject)=>{
+        ping.sys.probe(hosts, function(isAlive){
+            let msg = isAlive ? 'host ' + hosts + ' is alive' : 'host ' + hosts + ' is dead';
+            resolve(msg);
+            
+        });
+    
+    } );
+
+    
+}
+
+
+// myvalue('www.shubhamworks.com')
+module.exports = myvalue;
+
+
+
+

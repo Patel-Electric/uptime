@@ -1,0 +1,27 @@
+{
+  "name": "uptime",
+  "version": "1.0.0",
+  "description": "Website Uptime Tester",
+  "main": "app.js",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.1",
+    "mocha-sinon": "^2.1.2",
+    "ping": "^0.4.1",
+    "sinon": "^13.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patel-Electric/uptime.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patel-Electric/uptime/issues"
+  },
+  "homepage": "https://github.com/Patel-Electric/uptime#readme"
+}
