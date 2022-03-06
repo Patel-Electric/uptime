@@ -1,3 +1,3 @@
 # uptime
-[![Node.js CI](https://github.com/Patel-Electric/uptime/actions/workflows/node.js.yml/badge.svg)](https://github.com/Patel-Electric/uptime/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/Patel-Electric/uptime/actions/workflows/nodejs.yml/badge.svg?branch=main)](https://github.com/Patel-Electric/uptime/actions/workflows/nodejs.yml)
 <br>Website Uptime Tester
