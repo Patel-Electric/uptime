@@ -12,7 +12,7 @@ on:
     - cron:  '5 * * * *'    # At every 5th minute
 jobs:
   build:
-
+    name: uptime_runner
     runs-on: self-hosted
 
     strategy:
