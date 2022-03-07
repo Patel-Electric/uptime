@@ -8,11 +8,12 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
+  schedule:
+    - cron:  '5 * * * *'    # At every 5th minute
 jobs:
   build:
-
-    runs-on: self-hosted
+    name: uptime_runner
+    runs-on: windows-runner1
 
     strategy:
       matrix:
