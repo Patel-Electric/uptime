@@ -8,7 +8,7 @@
     "mocha": "^9.2.1",
     "mocha-sinon": "^2.1.2",
     "ping": "^0.4.1",
-    "sinon": "^13.0.1"
+    "sinon": "^13.0.2"
   },
   "devDependencies": {},
   "scripts": {
